@@ -12,7 +12,7 @@ class VendorSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class RetailerSerializer(serializers.ModelSerializer):
-    vendors = VendorSerializer(many=True)
+    vendors = serializers.PrimaryKeyRelatedField(many=True, queryset=Vendor.objects.all())
 
     class Meta:
         model = Retailer
