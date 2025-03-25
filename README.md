@@ -61,14 +61,14 @@ http://localhost:8000/
 - `PUT /api/vendors/{id}/` → Update a vendor
 - `DELETE /api/vendors/{id}/` → Delete a vendor
 
-### ** Retailers (`/api/retailers/`)**
+### **Retailers (`/api/retailers/`)**
 - `GET /api/retailers/` → List all retailers
 - `GET /api/retailers/{id}/` → Get details of a retailer
 - `POST /api/retailers/` → Create a new retailer
 - `PUT /api/retailers/{id}/` → Update a retailer
 - `DELETE /api/retailers/{id}/` → Delete a retailer
 
-### ** Briefings (`/api/briefings/`)**
+### **Briefings (`/api/briefings/`)**
 - `GET /api/briefings/` → Lists all briefings
 - `GET /api/briefings/{id}/` → Gets details of a briefing
 - `POST /api/briefings/` → Creates a new briefing
@@ -87,7 +87,7 @@ This will validate the functionality of the endpoints and models.
 
 ## 📲 Contact
 
-If you have any questions or suggestions, please contact us:
+If you have any questions or suggestions, please contact me:
 
 - ✉️ Email: gurezende27.gr@gmail.com
 - 👉 LinkedIn: (https://www.linkedin.com/in/gustavo-rezende-dev/)
